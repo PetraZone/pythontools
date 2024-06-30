@@ -1,4 +1,8 @@
 This is a general explanation of files in this repository.
+
+cypher.py
+This program either generates a key protected encryption OR decrypts a known key protected encryption.
+
  
  random_password_generator.py
  This program uses secrets module to generate a random password.
