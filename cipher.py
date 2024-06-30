@@ -1,4 +1,5 @@
-text = 'mrttaqrhknsw ih puggrur'
+#User input for the text and key you would like to use to encrypt/decrypt from
+text = 'pac xq ckhabsl'
 custom_key = 'happycoding'
 
 def vigenere(message, key, direction=1):
@@ -30,7 +31,12 @@ def encrypt(message, key):
 def decrypt(message, key):
     return vigenere(message, key, -1)
 
+
 print(f'\nEncrypted text: {text}')
 print(f'Key: {custom_key}')
+encryption = encrypt(text, custom_key)
 decryption = decrypt(text, custom_key)
+
+#Switch Between Both Prints to receive encryption or decryption output
+print(f'\nEncrypted text: {encryption}\n')
 print(f'\nDecrypted text: {decryption}\n')
