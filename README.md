@@ -1,6 +1,6 @@
 This is a general explanation of files in this repository.
 
-cypher.py
+cypher.py \n
  This program either generates a key protected encryption OR decrypts a known key protected encryption.
 
  
